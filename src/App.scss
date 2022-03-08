@@ -73,10 +73,10 @@ body {
     color: #ff7f50;
     cursor: pointer;
 
-    &:focus {
-      color: #fff;
-      background-color: #ff7f50;
-    }
+    // &:focus {
+    //   color: #fff;
+    //   background-color: #ff7f50;
+    // }
   }
 
   .button-filter {
@@ -87,9 +87,17 @@ body {
   }
 }
 
-.filterbutton-active {
+.filter-all {
   color: #fff !important;
   background-color: #ff7f50 !important;
+}
+.filter-active {
+  color: #fff !important;
+  background-color: #1336d1 !important;
+}
+.filter-completed {
+  color: #fff !important;
+  background-color: #75270a !important;
 }
 
 .todo {
