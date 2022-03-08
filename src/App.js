@@ -1,22 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss";
+import AddTodos from "./components/AddTodos";
+import Todos from "./containers/Todos/index.js";
+import FilterLink from "./containers/FilterLink";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="container">
+          <AddTodos />
+          
+          <div className="filter">
+            <h2>Filter :</h2>
+            <FilterLink />
+          </div>
+          <Todos />
+        </div>
       </header>
     </div>
   );
