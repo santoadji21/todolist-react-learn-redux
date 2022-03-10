@@ -76,6 +76,10 @@ body {
   margin-left: 10%;
   margin-right: 10%;
 }
+
+ .button-filter {
+    flex-wrap: wrap;
+  }
 }
 
 .filter {
@@ -108,7 +112,6 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
   }
 }
 
